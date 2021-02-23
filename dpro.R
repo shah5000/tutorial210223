@@ -5,6 +5,8 @@ library(arrow)
 #library(chron)
 #library(lubridate)
 
+#adding new comment 
+
 allDates <-seq(as.POSIXct("2019-1-1 00:00:00"), as.POSIXct("2019-9-30 23:59:00"), by = "min")
 timestampdf <- data.frame(dataTimestamp=allDates)
 timestampdf$dataTimestamp <- as.character(timestampdf$dataTimestamp)
